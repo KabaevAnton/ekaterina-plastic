@@ -1,0 +1,142 @@
+.reviews {
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__title {
+    margin: 0;
+    padding: 5px 60px;
+    border-bottom: 2px solid #D3D8DB;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+}
+
+.reviews__info {
+    max-width: 680px;
+}
+
+.reviews__text {
+    margin: 30px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #a2a4a5;
+    text-align: center;
+}
+
+.reviews__link {
+    margin: 0 0 0 8px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #a2a4a5;
+    opacity: 1;
+    transition: opacity .3 ease;
+}
+
+.reviews__link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.reviews__container {
+    width: 1141px;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews__img {
+    width: 500px;
+    height: 200px;
+    margin: 0 25px;
+    object-fit: contain;
+}
+
+.reviews__img:hover {
+    cursor: url("../../images/zoom.svg"), pointer;
+}
+
+@media screen and (max-width: 1393px) {
+    .reviews__container {
+        width: 990px;
+    }
+
+    .reviews__img {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 1133px) {
+    .reviews__container {
+        width: 600px;
+    }
+
+    .reviews__img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .reviews {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .reviews__container {
+        width: 470px;
+    }
+
+    .reviews__text {
+        margin-bottom: 0;
+    }
+
+    .reviews__img {
+        width: 400px;
+        height: 150px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .reviews {
+        padding: 0 20px;
+    }
+
+    .reviews__title {
+        font-size: 30px;
+    }
+
+    .reviews__text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .reviews__link {
+        font-size: 18px;
+    }
+
+    .reviews__container {
+        width: 100%;
+    }
+
+    .reviews__img {
+        width: 100%;
+        margin: 0;
+    }
+}
