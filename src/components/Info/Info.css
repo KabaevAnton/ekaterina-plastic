@@ -1,0 +1,134 @@
+.info {
+    max-width: 100%;
+    padding: 0px 70px;
+    margin: 0 0 100px 0;
+}
+
+.info__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 400px));
+    grid-template-rows: auto;
+    grid-column-gap: 60px;
+    grid-row-gap: 35px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.info__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.info__box {
+    width: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.info__box:hover .info__subtitle {
+   opacity: .5;
+}
+
+.info__iamge {
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    border-radius: 2px;
+    transition: transform 0.3s ease-out;
+}
+
+.info__box:hover .info__iamge {
+    transform: scale(1.1);
+}
+
+.info__iamge_1 {
+    background-image: url('../../images/face.jpg');
+}
+
+.info__iamge_2 {
+    background-image: url('../../images/grud.jpg');
+}
+
+.info__iamge_3 {
+    background-image: url('../../images/body.jpg');
+}
+
+.info__subtitle {
+    margin: 25px 0 15px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    opacity: 1;
+    transition: opacity .3 ease;
+}
+
+.info__text {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1465px) {
+    .info__container {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 350px));
+        column-gap: 35px;
+    }
+}
+
+@media screen and (max-width: 1465px) {
+    .info__container {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 300px));
+        column-gap: 35px;
+    }
+
+    .info__iamge {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1113px) {
+    .info__container {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 350px));
+        column-gap: 35px;
+    }
+
+    .info__iamge {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .info {
+        margin-bottom: 70px;
+    }
+    
+    .info__container {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 400px));
+        column-gap: 35px;
+    }
+
+    .info__iamge {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .info {
+        padding: 0px 20px;
+    }
+
+    .info__container {
+        grid-template-columns: repeat(auto-fit, minmax(275px, 350px));
+        column-gap: 35px;
+    }
+
+    .info__iamge {
+        height: 300px;
+    }
+}
