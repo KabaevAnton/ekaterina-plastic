@@ -1,0 +1,148 @@
+.prices__container {
+    padding: 0 70px;
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices__links {
+    width: 886px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prices__catalog {
+    width: 886px;
+}
+
+.prices__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #a2a4a5;
+    text-decoration: none;
+    text-align: center;
+}
+
+.prices__subtitle_active {
+    font-size: 32px;
+    color: #000;
+}
+
+.prices__elements {
+    padding: 0;
+    list-style: none;
+}
+
+.prices__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices__items-title {
+    display: flex;
+}
+
+.prices__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #a2a4a5;
+}
+
+.prices__items-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.prices__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.prices__box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.prices__name, .prices__price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1026px) {
+    .prices__container {
+        padding: 0 40px;
+    }
+
+    .prices__links {
+        width: 100%;
+    }
+
+    .prices__catalog {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .prices__links {
+        flex-direction: column;
+    }
+
+    .prices__subtitle {
+        margin: 10px 0 0 0;
+    }
+
+    .prices__subtitle_active {
+        font-size: 30px;
+    }
+
+    .prices__number {
+        font-size: 18px;
+    } 
+
+    .prices__items-subtitle {
+        font-size: 18px;
+        margin: 20px 0 20px 10px;
+    }
+
+    .prices__catalog {
+        display: flex;
+        justify-content: center;
+    }
+
+    .prices__box {
+        flex-direction: column;
+    }
+
+    .prices__name {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .prices__price {
+        margin-top: 0;
+        color: #919191;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .prices__container {
+        padding: 0 20px
+    }
+}
+
