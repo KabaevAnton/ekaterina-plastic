@@ -1,0 +1,123 @@
+.burger {
+    width: 100%;
+    margin-top: 60px;
+    height: 100vh;
+    position: fixed;
+    top:-100%;
+    z-index: 3;
+    visibility: hidden;
+    transition: .2s ease;
+}
+.burger__container {
+    height: 100vh;
+    padding: 50px 40px;
+    background-color: #D3D8DB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.burger__box {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(105, 105, 105, .3);
+}
+
+.burger__menu-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #696969;
+    margin: 0 0 10px 0;
+}
+
+.burger__list {
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.burger__links {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.burger__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+}
+
+.burger__link:hover {
+    border-bottom: 2px solid #000;
+}
+
+.burger__contacts {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+}
+
+.burger__contacts:hover {
+    border-bottom: 2px solid #000;
+}
+
+.burger__number {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+}
+
+.burger__contacts-info {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.burger__info {
+    margin: 20px 0;
+}
+
+.burger_opened {
+    visibility: visible;
+    top: 0;
+}
+
+.burger__contact {
+    display: flex;
+    align-items: center;
+}
+
+.burger__icon {
+    margin: 0 5px 0 0;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 880px) {
+    .burger_opened {
+        display: none;
+    }
+}
