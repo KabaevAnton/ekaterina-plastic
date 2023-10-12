@@ -1,0 +1,96 @@
+.beforeAfter__title {
+    max-width: 190px;
+    margin: 60px auto;
+    padding: 5px 60px;
+    border-bottom: 2px solid #D3D8DB;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+}
+
+.beforeAfter__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.beforeAfter__menu {
+    margin: 0 0 60px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: disc
+}
+
+.beforeAfter__menu-links {
+    margin: 0 40px 10px 0;
+}
+
+.beforeAfter__menu-links::marker {
+    color: #a2a4a5 !important;
+}
+
+.beforeAfter__menu-btn {
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #a2a4a5;
+    transition: border .3 ease ;
+}
+
+.beforeAfter__menu-btn:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #a2a4a5;
+}
+
+@media screen and (max-width: 1280px) {
+    .beforeAfter__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .beforeAfter__list {
+        padding: 0 40px;
+    }
+
+    .beforeAfter__title {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .beforeAfter__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .beforeAfter__menu-btn {
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .beforeAfter__menu {
+        max-width: 230px;
+        align-items: start;
+    }
+
+    .beforeAfter__menu-btn {
+        height: auto;
+        text-align: start;
+    }
+}
+
+
+
