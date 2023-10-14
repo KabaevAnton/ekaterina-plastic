@@ -93,6 +93,7 @@
     font-weight: 500;
     font-size: 18px;
     background-color: #fff;
+    color: #000;
     transition: background-color 0.3 ease;
 }
 
