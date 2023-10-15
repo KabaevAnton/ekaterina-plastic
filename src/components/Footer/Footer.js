@@ -70,7 +70,7 @@ function Footer() {
               <li className="footer__links">
                 <a
                   className="footer__contacts"
-                  href="https://vk.com/ekaterina_martikainen"
+                  href="https://instagram.com/ekaterina_martikainen?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -80,7 +80,7 @@ function Footer() {
               <li className="footer__links">
                 <a
                   className="footer__contacts"
-                  href="https://instagram.com/ekaterina_martikainen?igshid=MzRlODBiNWFlZA=="
+                  href="https://vk.com/ekaterina_martikainen"
                   target="_blank"
                   rel="noreferrer"
                 >

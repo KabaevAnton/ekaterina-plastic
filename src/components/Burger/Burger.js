@@ -30,7 +30,7 @@ function Burger(props) {
           </div>
           <ul className="burger__list">
             <li className="burger__links">
-              <p className="burger__number">+7910-838-55-66</p>
+              <p className="burger__number">+7910-838-55-66</p>   
             </li>
             <li className="burger__links">
               <a className="burger__contacts" href="https://wa.me/+79108385566" target="_blank" rel="noreferrer">WhatsApp</a>
@@ -39,10 +39,10 @@ function Burger(props) {
               <a className="burger__contacts" href="https://t.me/+79108385566" target="_blank" rel="noreferrer">Telegram</a>
             </li>
             <li className="burger__links">
-              <a className="burger__contacts" href="https://vk.com/ekaterina_martikainen" target="_blank" rel="noreferrer">Instagram</a>
+              <a className="burger__contacts" href="https://instagram.com/ekaterina_martikainen?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">Instagram</a>
             </li>
             <li className="burger__links">
-              <a className="burger__contacts" href="https://instagram.com/ekaterina_martikainen?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">ВКонтакте</a>
+              <a className="burger__contacts" href="https://vk.com/ekaterina_martikainen" target="_blank" rel="noreferrer">ВКонтакте</a>
             </li>
           </ul>
           <div className="burger__box">
