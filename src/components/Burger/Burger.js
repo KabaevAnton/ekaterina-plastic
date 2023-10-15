@@ -30,7 +30,9 @@ function Burger(props) {
           </div>
           <ul className="burger__list">
             <li className="burger__links">
-              <p className="burger__number">+7910-838-55-66</p>   
+              <p className="burger__number">
+                <a href='tel:+7910-838-55-66' className='boorge__link-tel'>+7910-838-55-66</a>
+              </p>   
             </li>
             <li className="burger__links">
               <a className="burger__contacts" href="https://wa.me/+79108385566" target="_blank" rel="noreferrer">WhatsApp</a>
