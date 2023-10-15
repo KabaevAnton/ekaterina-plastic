@@ -13,4 +13,4 @@ export const diploms = [
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10
 ]
 
-export const BASE_URL = "https://martikainenekaterina.ru/api";
+export const BASE_URL = "https://martikainenekaterina.ru/";
