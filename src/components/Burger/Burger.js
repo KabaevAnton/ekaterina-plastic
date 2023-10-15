@@ -31,7 +31,7 @@ function Burger(props) {
           <ul className="burger__list">
             <li className="burger__links">
               <p className="burger__number">
-                <a href='tel:+7910-838-55-66' className='boorge__link-tel'>+7910-838-55-66</a>
+                <a href='tel:+7910-838-55-66' className='burger__link-tel'>+7910-838-55-66</a>
               </p>   
             </li>
             <li className="burger__links">
