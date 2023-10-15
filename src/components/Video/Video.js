@@ -62,7 +62,7 @@ function Video() {
       <div className="video__link">
         <a
           className="video__link-element"
-          href="https://vk.com/ekaterina_martikainen"
+          href="https://instagram.com/ekaterina_martikainen?igshid=MzRlODBiNWFlZA=="
           target="_blank"
           rel="noreferrer"
         >
