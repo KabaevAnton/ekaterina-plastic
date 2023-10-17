@@ -13,27 +13,27 @@ function Footer() {
             <h3 className="footer__subtitle">Навигация</h3>
             <ul className="footer__list">
               <li className="footer__links">
-                <Link to="/" className="footer__link">
+                <Link to="/" className="footer__link" onClick={() => window.scrollTo(0,0)}>
                   Главная
                 </Link>
               </li>
               <li className="footer__links">
-                <Link to="/about" className="footer__link">
+                <Link to="/about" className="footer__link" onClick={() => window.scrollTo(0,0)}>
                   О хирурге
                 </Link>
               </li>
               <li className="footer__links">
-                <Link to="/services" className="footer__link">
+                <Link to="/services" className="footer__link" onClick={() => window.scrollTo(0,0)}>
                   Услуги
                 </Link>
               </li>
               <li className="footer__links">
-                <Link to="/beforeAfter" className="footer__link">
+                <Link to="/beforeAfter" className="footer__link" onClick={() => window.scrollTo(0,0)}>
                   До/После
                 </Link>
               </li>
               <li className="footer__links">
-                <Link to="/pricesFace" className="footer__link">
+                <Link to="/pricesFace" className="footer__link" onClick={() => window.scrollTo(0,0)}>
                   Цены
                 </Link>
               </li>

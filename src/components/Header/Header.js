@@ -18,27 +18,27 @@ function Header(props) {
         {path === "/" ? (
           <ul className="header__links">
             <li className="header__link">
-              <Link to="/about" className="header__link-to">
+              <Link to="/about" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 О хирурге
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/services" className="header__link-to">
+              <Link to="/services" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 Услуги
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/beforeAfter" className="header__link-to">
+              <Link to="/beforeAfter" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 До/После
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/pricesFace" className="header__link-to">
+              <Link to="/pricesFace" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 Цены
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/contacts" className="header__link-to">
+              <Link to="/contacts" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 Контакты
               </Link>
             </li>
@@ -46,32 +46,32 @@ function Header(props) {
         ) : (
           <ul className="header__links">
             <li className="header__link">
-              <Link to="/" className="header__link-to header__link-to_gray">
+              <Link to="/" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 Главная
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/about" className="header__link-to header__link-to_gray">
+              <Link to="/about" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 О хирурге
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/services" className="header__link-to header__link-to_gray">
+              <Link to="/services" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 Услуги
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/beforeAfter" className="header__link-to header__link-to_gray">
+              <Link to="/beforeAfter" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 До/После
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/pricesFace" className="header__link-to header__link-to_gray">
+              <Link to="/pricesFace" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 Цены
               </Link>
             </li>
             <li className="header__link">
-              <Link to="/contacts" className="header__link-to header__link-to_gray">
+              <Link to="/contacts" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 Контакты
               </Link>
             </li>
