@@ -51,7 +51,7 @@ function Burger(props) {
             <h3 className="burger__menu-subtitle">Дополнительно</h3>
           </div>
           <div className="burger__info">
-            <a className="burger__contacts" href="https://blagofondlegche.ru/" target="_blank" rel="noreferrer">Благотворительный фонд "Легче"</a>
+            <a className="burger__contacts" href="https://legchefond.ru/" target="_blank" rel="noreferrer">Благотворительный фонд "Легче"</a>
             <p className="burger__contacts-info">Реконструктивно-пластическая помощь для взрослых и детей</p>
           </div>
         </div>

@@ -94,7 +94,7 @@ function Footer() {
             <div className="footer__info">
               <a
                 className="footer__contacts"
-                href="https://blagofondlegche.ru/"
+                href="https://legchefond.ru/"
                 target="_blank"
                 rel="noreferrer"
               >

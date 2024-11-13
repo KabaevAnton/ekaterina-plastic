@@ -36,7 +36,7 @@ function About(props) {
             </div>
             <a
               className="about__link"
-              href="https://blagofondlegche.ru/"
+              href="https://legchefond.ru/"
               target="_blank"
               rel="noreferrer"
             >
