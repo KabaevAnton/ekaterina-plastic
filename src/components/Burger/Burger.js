@@ -16,6 +16,11 @@ function Burger(props) {
               <Link to="/about" className="burger__link" onClick={props.onClose}>О хирурге</Link>
             </li>
             <li className="burger__links">
+              <Link to="/products" className="burger__link" onClick={props.onClose}>
+                Продукты
+              </Link>
+            </li>
+            <li className="burger__links">
               <Link to="/services" className="burger__link" onClick={props.onClose}>Услуги</Link>
             </li>
             <li className="burger__links">

@@ -18,6 +18,7 @@ import PricesBust from "../Prices/PricesBust";
 import PricesBody from "../Prices/PricesBody";
 import PricesDopOptions from "../Prices/PricesDopOptions";
 import Services from "../Services/Services";
+import Products from "../Products/Products";
 import Contacts from "../Contacts/Contacts";
 import Footer from "../Footer/Footer";
 import * as Api from "../../utils/Api";
@@ -227,6 +228,7 @@ function App() {
         />
         <Route path="/about" element={<About onImage={handleImageOpen} onImageClick={handleImageClick} isOpen={isBurgerOpen} onBurger={handleBurgerOpen} />} />
         <Route path="services" element={<Services isOpen={isBurgerOpen} onBurger={handleBurgerOpen} />} />
+        <Route path="products" element={<Products isOpen={isBurgerOpen} onBurger={handleBurgerOpen} />} />
         <Route
           path="/beforeAfter"
           element={

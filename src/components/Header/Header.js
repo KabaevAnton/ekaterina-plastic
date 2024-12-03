@@ -23,6 +23,11 @@ function Header(props) {
               </Link>
             </li>
             <li className="header__link">
+              <Link to="/products" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
+                Продукты
+              </Link>
+            </li>
+            <li className="header__link">
               <Link to="/services" className="header__link-to" onClick={() => window.scrollTo(0,0)}>
                 Услуги
               </Link>
@@ -53,6 +58,11 @@ function Header(props) {
             <li className="header__link">
               <Link to="/about" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
                 О хирурге
+              </Link>
+            </li>
+            <li className="header__link">
+              <Link to="/products" className="header__link-to header__link-to_gray" onClick={() => window.scrollTo(0,0)}>
+                Продукты
               </Link>
             </li>
             <li className="header__link">
