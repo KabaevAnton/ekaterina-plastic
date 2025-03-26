@@ -1,10 +1,23 @@
 import "./Products.css";
 import Header from "../Header/Header";
 import sleepMask from "../../images/Products/SleepingMask.JPG"
-import sleepMaskVideo from "../../video/Products/SleepingMask.MOV"
+
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const sleepMaskImages = importAll(require.context('../../images/Products/sleepingMask/', false,));
+const sleepMaskVideos = importAll(require.context('../../video/Products/sleepingMask/', false,));
+
+
 
 
 function Products(props) {
+  console.log("sleepMaskImages", Object.values(sleepMaskImages));
+  
   return (
     <section className="services">
       <Header isOpen={props.isOpen} onBurger={props.onBurger} />
@@ -19,15 +32,33 @@ function Products(props) {
         </div>
         <ul className="services__list">
           <li className="services__box">
-            <h3 className="services__title">Маска для сна</h3>
+            <h3 className="services__title">Средства для реабилитации после эстетических операций на лице</h3>
             <div className="servisec__wrapper">
               <img className="services__img" alt="" src={sleepMask}></img>
               <div className="sevices__pharagrph">
                 <p className="services__description">
-                  Маска для сна цена 10000 руб.
+                  {
+                    sleepMaskImages.map(element => {
+                      <img className="services__img" alt="" src={element}></img>
+                    })
+                  }
                 </p>
+                
+              </div>
+              <div className="sevices__pharagrph">
+                
                 <p className="services__description">
-                  <video className="video__mainVideo" src={sleepMaskVideo} controls />
+                  {
+                    sleepMaskVideos.map(element => {
+                      <img className="services__img" alt="" src={element}></img>
+                    })
+                  }
+                </p>
+                
+              </div>
+              <div className="sevices__pharagrph">
+                <p className="services__description">
+                  Маска для сна цена 10000 руб.
                 </p>
                 
               </div>
